@@ -1,5 +1,5 @@
 # Description
-Small GIUI software for interfacing with Local DB, Irrelevant for non employees since you wont be able to connect without being on the network or having credidentials.
+Small GUI software for interfacing with Local DB, Irrelevant for non employees since you wont be able to connect without being on the network or having credidentials.
 
 # Log in
 When launching the executable, you will encounter a login window that facilitates database connection. If you haven't received login credentials, please reach out to me, and I will provide the necessary information for program access. Kindly note that access to this program requires an existing user account in the database. Passwords are case-sensitive, and usernames are entered in all uppercase by default.
