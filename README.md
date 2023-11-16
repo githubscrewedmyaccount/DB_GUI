@@ -31,8 +31,10 @@ These buttons serve as our "query builders" these will execute the queries for y
 * 'Building code/abbr select' - This ones unique, if you put in a building abbreviation it will give you its code, on the flip side of that if you put in a building code it will give you its corresponding building abbreviation.
 * 'Export view to CSV' - This one is simple, it will take the current view within the program and put it into a CSV file that will go to your desktop.
 * 'Manual SQL' - Possibly the most powerful portion of this program, you can craft your own query and pull any kind of data you would like, this is not limited at all and you can parse information incredibly well with this. once you write your query in the manual sql window press "CTRL-r" to run it. If there are errors the console will reflect it.
-* 'Import Inventory CSV' - This will import an inventory CSV file, currently not implemented in version 1.2
-* 'Import AWOL CSV' - This will import an awol CSV file, currently not implemented in version 1.2
+
+# Importing
+
+* 'Import/AWOL Import CSV' - This button will import CSV files to the database of scans or updates, etc. You NEED to use the template that is in the files for this repository and fill in the columns since the information needs to be this way for the program to put it in. Please be sure that the correct information is in the correct fields and if you mess it up it may throw out errors.
 
 # Console
 
