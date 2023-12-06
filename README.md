@@ -4,6 +4,9 @@ This simple yet efficient GUI software is designed for seamless interaction with
 # Log in
 Upon initiating the software, users are greeted with a login interface, essential for establishing a connection with the database. If you haven't obtained your login details yet, please contact the system administrator to receive your credentials. Access is contingent upon having an established user account. Keep in mind that while usernames are auto-capitalized, passwords remain sensitive to case.
 
+# Remember me
+By clicking the option, your information will be saved for future use. This action creates a directory named 'serial_search_utility' within your Documents folder, containing an encrypted file with your details. If you choose to log out of your current user, a button located at the top left of the program will log you out and delete this file and prompt a new user to log in.
+
 # Input window
 
 <img width="199" alt="image" src="https://github.com/UIMlink/DB_GUI/assets/141648522/cfe15037-b2ce-4982-86dd-26829e49c699">
@@ -11,7 +14,9 @@ Upon initiating the software, users are greeted with a login interface, essentia
 Positioned at the top left is the entry window, a compact, black interface for data input. This window is versatile, accepting various inputs such as IDs, serial numbers, building codes, and names. It also recognizes specific commands:
 
 * '!awol' - this selects our awol report when this is put in and the "Awol Select" button is pressed.
+* '!awol_total' - This will give you the entirety of the awol table.
 * '!inv' - this selects our Inventory report when this is put in and the "Inventory Select" button is presed.
+* '!inv_total' - this will give the entirety of the inventory table.
 * '*' - This only works with the "Building code/abbr select" Button. This will just give you a whole list of the Buildings table.
 
 # Buttons
@@ -22,7 +27,7 @@ The software features an array of buttons that act as intuitive query builders, 
 
 * Inventory Select - Cross-references serial numbers with our historical data, offering comprehensive details related to each number. A customizable query pop-up allows for specific data retrieval.
 * Awol Select - Similar to the Inventory Select but pulls data from the historical AWOL table.
-* Eassets CDSID Select - Searches employee types or emails by CDSID from the eassets data.
+* Eassets CDSID Select - Searches employee types or emails by CDSID from the eassets data which will give manager emails/cdsids.
 * Eassets Serial Select - Retrieves eassets asset data for entered serial numbers.
 * Building Code/Abbr Select - Provides building codes or abbreviations based on the input.
 * Export View to CSV - Exports the current program view to a CSV file on your desktop.
