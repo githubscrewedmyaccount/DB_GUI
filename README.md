@@ -7,6 +7,10 @@ Upon initiating the software, users are greeted with a login interface, essentia
 # Remember me
 By clicking the option, your information will be saved for future use. This action creates a directory named 'serial_search_utility' within your Documents folder, containing an encrypted file with your details. If you choose to log out of your current user, a button located at the top left of the program will log you out and delete this file and prompt a new user to log in.
 
+# Log Out and Refresh Buttons
+ ![image](https://github.com/githubscrewedmyaccount/DB_GUI/assets/156451204/9c54968b-e6ed-4714-8580-2948cde5c9a5)
+
+
 # Input window
 
 <img width="199" alt="image" src="https://github.com/UIMlink/DB_GUI/assets/141648522/cfe15037-b2ce-4982-86dd-26829e49c699">
