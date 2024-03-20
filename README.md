@@ -8,7 +8,10 @@ Upon initiating the software, users are greeted with a login interface, essentia
 By clicking the option, your information will be saved for future use. This action creates a directory named 'serial_search_utility' within your Documents folder, containing an encrypted file with your details. If you choose to log out of your current user, a button located at the top left of the program will log you out and delete this file and prompt a new user to log in.
 
 # Log Out and Refresh Buttons
- ![image](https://github.com/githubscrewedmyaccount/DB_GUI/assets/156451204/9c54968b-e6ed-4714-8580-2948cde5c9a5)
+
+![image](https://github.com/githubscrewedmyaccount/DB_GUI/assets/156451204/9c54968b-e6ed-4714-8580-2948cde5c9a5)
+The "X" button will log you out of your program, this will also delete any saved information you might have had previously. Under that we have the refresh button, this is used when we see this indicator in the commands box:
+
 
 
 # Input window
