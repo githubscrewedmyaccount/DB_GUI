@@ -13,10 +13,9 @@ By clicking the option, your information will be saved for future use. This acti
 
 Positioned at the top left is the entry window, a compact, black interface for data input. This window is versatile, accepting various inputs such as IDs, serial numbers, building codes, and names. It also recognizes specific commands:
 
-* '!awol' - this selects our awol report when this is put in and the "Awol Select" button is pressed.
-* '!awol_total' - This will give you the entirety of the awol table.
+* '!awolreport' - this selects our awol report when this is put in and the "Awol Select" button is pressed.
+* '!awolpivot' - This will give you the same report but will edit the dates to reflect better in excel pivot tables.
 * '!inv' - this selects our Inventory report when this is put in and the "Inventory Select" button is presed.
-* '!inv_total' - this will give the entirety of the inventory table.
 * '*' - This only works with the "Building code/abbr select" Button. This will just give you a whole list of the Buildings table.
 
 # Buttons
